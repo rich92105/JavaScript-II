@@ -38,7 +38,7 @@ Use `.forEach()`, `.map()`, `.filter()`, and `.reduce()` to loop over an array w
 
 * [ ] Notice the last three problems are up to you to create and solve.  This is an awesome opportunity for you to push your critical thinking about array methods, have fun with it.
 
-## Task 4: Closures
+## Task 4: Closures  
 
 We have learned that closures allow us to access values in scope that have already been invoked (lexical scope).  
 
