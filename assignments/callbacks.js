@@ -26,15 +26,22 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 */
 
 
-function getLength(items, cb) {
-  // getLength passes the length of the array into the callback.
+// function getLength(items, cb) {
+//   // getLength passes the length of the array into the callback.
 
-getLength(items, length => {
-    console.log(`The length of the array is ${length}.`);
+// getLength(items, length => {
+//     console.log(`The length of the array is ${length}.`);
     
-});
-} 
-  
+// });
+// } 
+function getLength(arr, callback) {
+  // getLength passes the length of the array into the callback.
+  console.log(callback(arr));
+}
+const schoolSupplies = function(items){
+  return items.length;
+}
+getLength(items, schoolSupplies);
 
 
 function last(items, cb) {
